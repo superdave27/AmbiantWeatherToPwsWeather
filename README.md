@@ -20,9 +20,13 @@ Usage:
 Set the config usage:
 ambAppkey = from ambient weather, need to send a request to support
 ambApiKey = from the ambientweather.net user interface
+owmId = FROM NWS unique id
+intervalMinutes = 20
+
+[NWS]
+forecastLocation = #lat,long#
 
 Adjusting the code if needed:
-intervalMinutes = minutes delay between pushes
 loglevel = change to ERROR to get less data, INFO, for a quick "it worked log", or DEBUG for tons of data
 
 After you set the variables, execute the script, it will continue to run until killed
