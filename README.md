@@ -20,11 +20,11 @@ Usage:
 Set the config usage:
 ambAppkey = from ambient weather, need to send a request to support
 ambApiKey = from the ambientweather.net user interface
-owmId = FROM NWS unique id
+
 intervalMinutes = 20
 
 [NWS]
-forecastLocation = #lat,long#
+forecastLocation = #lat,long# You will need your latitued and longitude to get NWS forcast info.
 
 Adjusting the code if needed:
 loglevel = change to ERROR to get less data, INFO, for a quick "it worked log", or DEBUG for tons of data
