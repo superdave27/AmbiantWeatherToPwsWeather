@@ -1,7 +1,6 @@
 [AMB]
 ambAppkey = #APPKEY
 ambApiKey = #APIKEY#
-owmId = #OWMID#
 intervalMinutes = 20
 
 [NWS]
