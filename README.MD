@@ -1,8 +1,6 @@
 # PiWeather
-Phase 2 adds forcast data from NWS.
-Removed push to PWS site as Ambiant weather now handles that for us via thier config app.
+Phase 3 Will remove the Abiant weather connection for personal local data and change to using a full NWS based weather display
 
-This makes PiWeather just a plain weather station reading from your local ambiant weather station
 
 Written for:
 Python 3.6.5
