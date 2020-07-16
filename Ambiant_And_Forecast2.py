@@ -60,7 +60,6 @@ configParser.read(configFilePath)
 #USER REQUIRED DATA FROM Config file
 ambAppkey = configParser.get('AMB', 'ambAppkey')
 ambApiKey = configParser.get('AMB', 'ambApiKey')
-owmId=configParser.get('AMB', 'owmId')
 intervalMinutes = int(configParser.get('AMB', 'intervalMinutes'))
 loglevel=logging.INFO
 
